@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rapid Math - Conversion & Tools</title>
-    <link rel="icon" href="../RapidMath-project/assets/images/infinity-logo.png">
-    <link href="../RapidMath-project/assets/styles.css" rel="stylesheet">
+    <title>Rapid Math - Decimal to Other Bases</title>
+    <link rel="icon" href="../images/infinity-logo.png">
+    <link href="./decimal.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="../decimal-page/decimal.js"></script>
 </head>
 <body>
 
     <div class="header">
         <div class="logo-header">
             <a href="#">
-                <img width="50px" src="../RapidMath-project/assets/images/infinity-logo.png">
+                <img width="50px" src="../images/infinity-logo.png">
             </a>
             
         </div>
@@ -26,57 +26,26 @@
         
       </div>
       
+      <div class="jumbotron jumbotron-fluid mb-5">
+        <div class="container ">
+          <h1 class="display-4">Decimal Converter</h1>
+          <p class="lead">Enter the decimal number and it will appear in the other numerical bases.</p>
+        </div>
+      </div>
+      
 
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-header" style="background-color:#2b2b2b;">Bases Converter</div>
-                <div class="card-body bg-light">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Decimal to Other Bases</p>
-                  </a>
-                  <hr class="solid">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Binary to Other Bases</p>
-                  </a>
-                  <hr class="solid">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Hexadecimal to Other Bases <span class="badge bg-warning">New</span></p>
-                  </a>
-                  <hr class="solid">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Octal to Other Bases</p>
-                  </a>
-            
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-header" style="background-color:#2b2b2b;">Lenght Converter</div>
+      <div  class="input-group mx-auto w-75 pb-5">
+        <input type="number"  id="demoInput"placeholder="Insert here a decimal number" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <div class="input-group-append">
+          <span><button type="button" onclick="convertFunction()" class="btn btn-success"> Convert ✔️</button></span>
+          <span><button type="button" class="btn btn-danger"> Clear ❌</button></span>
+        </div>
+      </div>
+      <p class="show"id="demo"></p>
 
-                <div class="card-body bg-light">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Centimeters to other units</p>
-                    
-                  </a>
-                  <hr class="solid">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Feet to other units  <span class="badge bg-warning">New</span></p>
-                  </a>
-                  <hr class="solid">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Kilometers to other units</p>
-                  </a>
-                  <hr class="solid">
-                  <a href="#"style="color:#292929; text-decoration:none">
-                    <p class="card-text">Meters to other units</p>
-                  </a>
-            
-                </div>
-              </div>
-            </div>
-          </div>
+
+
+
 
       <div class="row">
         <div class="col-sm-6 mt-5">
@@ -131,7 +100,9 @@
      
 
       
-  
+
+
+      
 
       <div class="footer-dark">
         <footer>
