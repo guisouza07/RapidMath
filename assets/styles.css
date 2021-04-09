@@ -5,10 +5,6 @@ body {
  
 }
 
-a {
-  
-  text-decoration: none; /* no underline */
-}
 
 .header {
   background-color: #2b2b2b;
@@ -43,24 +39,67 @@ a {
 }
 
 
-.card{
-  width: 70%;
-  margin-top: 100px;
-  margin-left: 160px;
-}
 
 
-
-.btn{
-  background-color: #3d3d3d;
+.card-header{
   color: #f0f9ff;
+  font-weight: bold;
 }
+
+
+.card{
+  width: 80%;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.card-donate{
+  margin-top: -297px;
+  margin-left: 117%;
+  border-radius: 3%;
+  padding-bottom: 36px;
+}
+
+.donate-btn{
+ width: 10%;
+ height: 80%;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  border-radius: 60%;
+  margin-top: 10px;
+}
+
+.fa-github {
+  background: #535353;
+  color: white;
+  
+}
+
+.fa-instagram {
+  background: #535353;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #535353;
+  color: white;
+}
+
+
 .footer-dark {
   padding:65px ;
   color:#f0f9ff;
   background-color:#2b2b2b;
   text-align: center;
   width: 100%;
+  margin-top: 100px;
   
   
 }
@@ -152,4 +191,4 @@ a {
   margin-bottom:0;
 }
 
-https://epicbootstrap.com/snippets/footer-dark
+
