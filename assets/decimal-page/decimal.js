@@ -1,9 +1,8 @@
-function convertFunction() {
-    var x = document.getElementById("demoInput").value;
-    document.getElementById("demo").innerHTML = x;
-  }
+
 
   function convertFunction() {
+
+    
     
     var str = +document.getElementById("demoInput").value;
     var a = str.toString();
