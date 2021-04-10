@@ -17,17 +17,18 @@
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    margin: 0;
   }
+}
+
+body{
+  margin: 0;
 }
 
 html{
   scroll-behavior: smooth;
 }
 
-body{
-  margin: 0;
-}
+
 
 
 .header {
