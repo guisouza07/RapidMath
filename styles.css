@@ -7,7 +7,6 @@
     overflow-x: hidden;
     position: absolute;
     top: 100%;
-    scroll-behavior: smooth;
     left: 0;
   }
 }
@@ -25,9 +24,6 @@
 }
 
 
-html {
-  scroll-behavior: smooth;
-}
 
 .header {
   background-color: #2b2b2b;
