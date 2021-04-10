@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
@@ -6,10 +7,12 @@
     overflow-x: hidden;
     position: absolute;
     top: 100%;
-    scroll-behavior: smooth;
     left: 0;
   }
 }
+
+
+/* if portrait mode is detected, rotate the entire site -90 degrees to hint rotating to landscape */
 @media (orientation: portrait) {
   body {
     -webkit-transform: rotate(-90deg);
@@ -17,18 +20,17 @@
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
+    margin: 0;
   }
-}
-
-body{
-  margin: 0;
 }
 
 html{
   scroll-behavior: smooth;
 }
 
-
+body{
+  margin: 0;
+}
 
 
 .header {
