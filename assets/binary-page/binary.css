@@ -43,7 +43,7 @@ body {
 
 
   .show{
-    margin-top: -12px;
+    margin-top: -12px;  /* Quick fix  */ 
     margin-left: 338px;
     font-size: 30px;
     font-weight: bold;
@@ -69,8 +69,8 @@ body {
   }
   
   .card-donate{
-    margin-top: -343.8px;
-    margin-left: 117%;
+    margin-top: -343.8px;  /* Quick fix  */ 
+    margin-left: 117%;  /* Quick fix  */ 
     border-radius: 3%;
     padding-bottom: 36px;
   }
