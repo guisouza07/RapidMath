@@ -182,8 +182,25 @@ body{
 }
 
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+   
+  
+  body{
+    
+    width: 100%;
+  }
+}
+
+/* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
+  div.card-header {
+    display: none;
+  }
+}
+
+@media only screen and (orientation: landscape) {
   body {
-    background-color: rgb(0, 0, 0);
+    background-color: lightblue;
   }
 }
