@@ -188,7 +188,7 @@ body{
 /* For small devices */
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 100%){
     body{
         margin: 0;
     }
