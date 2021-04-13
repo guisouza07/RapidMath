@@ -64,13 +64,13 @@ body {
   
   .card{
     width: 80%;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 80px;
   }
   
   .card-donate{
     margin-top: -313.8px;  /* Quick fix  */ 
-    margin-left: 117%;  /* Quick fix  */ 
+    margin-left: 119%;  /* Quick fix  */ 
     border-radius: 3%;
     padding-bottom: 36px;
   }
@@ -243,11 +243,6 @@ body {
   
     margin-right: 170px;
   }
-  .card-header{
-  
-    margin-right: 170px;
-  }
-  
   
   }
   

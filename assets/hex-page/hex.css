@@ -40,8 +40,8 @@ body {
     font-size: 23px;
     font-weight: bold;
   }
-  
-  
+
+
   .show{
     margin-top: -12px;  /* Quick fix  */ 
     margin-left: 338px;  /* Quick fix  */ 
@@ -57,20 +57,20 @@ body {
     font-weight: bold;
   }
   
-  
+
   .line{
       margin-top: 50px;
   }
   
   .card{
     width: 80%;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 80px;
   }
   
   .card-donate{
-    margin-top: -258px;  /* Quick fix  */ 
-    margin-left: 117%;  /* Quick fix  */ 
+    margin-top: -313.8px;  /* Quick fix  */ 
+    margin-left: 119%;  /* Quick fix  */ 
     border-radius: 3%;
     padding-bottom: 36px;
   }
@@ -118,7 +118,7 @@ body {
     background-color:#1f1f1f;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 220px;
     
     
   }
@@ -240,10 +240,6 @@ body {
   
   }
   .card{
-  
-    margin-right: 170px;
-  }
-  .card-header{
   
     margin-right: 170px;
   }
