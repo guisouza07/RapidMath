@@ -212,3 +212,43 @@ body {
   
   
   
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body{
+    
+    width: 100%;
+  }
+  }
+  
+  /* If the screen size is 600px wide or less, hide the element */
+  @media only screen and (max-width: 600px) {
+  div.card-donate {
+    display: none;
+  }
+  
+  .logo-header{
+  
+      margin-right: 15px;
+  }
+  
+  .header{
+    width: 104%;
+  }
+  
+  .footer-dark{
+    width: 104%;
+  
+  }
+  .card{
+  
+    margin-right: 170px;
+  }
+  .card-header{
+  
+    margin-right: 170px;
+  }
+  
+  
+  }
+  
+  
