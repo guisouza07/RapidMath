@@ -235,15 +235,29 @@ body {
     width: 104%;
   }
   
+  .jumbotron{
+
+    width: 104%;
+
+
+  }
+
+  .input-group{
+
+    width: 105%;
+  }
+
+
   .footer-dark{
     width: 104%;
   
   }
   .card{
   
-    margin-right: 170px;
+    margin-left:34px;
   }
  
+  
   
   }
   
