@@ -1,3 +1,7 @@
+@viewport {  
+  orientation: portrait;  
+}  
+
 html{
   scroll-behavior: smooth;
 }
