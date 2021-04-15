@@ -68,48 +68,6 @@ body {
     margin-top: 80px;
   }
   
-  .card-donate{
-    margin-top: -313.8px;  /* Quick fix  */ 
-    margin-left: 119%;  /* Quick fix  */ 
-    border-radius: 3%;
-    padding-bottom: 36px;
-  }
-  
-  .donate-btn{
-   width: 10%;
-   height: 80%;
-  }
-  
-  .fa {
-    padding: 15px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin-left: 20px;
-    border-radius: 60%;
-    margin-top: 10px;
-  }
-  
-  .fa-github {
-    background: #333333;
-    color: white;
-    outline:none;
-    border: none;
-    
-    
-    
-  }
-  
-  .fa-instagram {
-    background: #333333;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #333333;
-    color: white;
-  }
   
   
   .footer-dark {
