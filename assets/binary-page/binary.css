@@ -222,10 +222,13 @@ body {
   
   /* If the screen size is 600px wide or less, hide the element */
   @media only screen and (max-width: 600px) {
-  div.card-donate {
-    display: none;
-  }
   
+
+  .show{
+
+    margin-right: 80px;
+  }
+
   .logo-header{
   
       margin-right: 15px;
