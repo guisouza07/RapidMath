@@ -170,58 +170,55 @@ body {
   
   
   
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  body{
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+      
+      width: 100%;
+    }
+    }
     
-    width: 100%;
-  }
-  }
+    /* If the screen size is 600px wide or less, hide the element */
+    @media only screen and (max-width: 600px) {
+    
   
-  /* If the screen size is 600px wide or less, hide the element */
-  @media only screen and (max-width: 600px) {
-  div.card-donate {
-    display: none;
-  }
-
-  .show{
-
-    margin-left: 80px;
-  }
+    .show{
   
-  .logo-header{
+      margin-left: 80px;
+    }
   
-      margin-right: 15px;
-  }
+    .logo-header{
+    
+        margin-right: 15px;
+    }
+    
+    .header{
+      width: 104%;
+    }
+    
+    .jumbotron{
   
-  .header{
-    width: 104%;
-  }
-  
-  .jumbotron{
-
-    width: 104%;
-
-
-  }
-
-  .input-group{
-
-    width: 105%;
-  }
-
-
-  .footer-dark{
-    width: 104%;
-  
-  }
-  .card{
-  
-    margin-left:34px;
-  }
- 
+      width: 104%;
   
   
-  }
+    }
   
+    .input-group{
+  
+      width: 105%;
+    }
+  
+  
+    .footer-dark{
+      width: 104%;
+    
+    }
+    .card{
+    
+      margin-left:34px;
+    }
+   
+    
+    
+    }
   
