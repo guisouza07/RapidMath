@@ -5,13 +5,12 @@
     
     
     var str = +document.getElementById("demoInput").value;
-    var a = str / 3281;
-    var b = str / 3.281;
+    var a = str / 1000;
+    var b = str * 1000;
     
-    var c = str * 30.48;
-    var d = str * 305;
+  
 ;
-    var e = "Kilometers:  " + a + "  Km" + "<br>" + "Meters:  " + b + "  m" + "<br>" + "Centimeters:  " +  c + "  cm" + "<br>" + "Millimeters:  " +  d + "  mm";
+    var e = "Kilogram:  " + a + "  kg" + "<br>" + "Milligram:  " + b + "  mg";
     document.getElementById("demo").innerHTML=e;
 
     
