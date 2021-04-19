@@ -226,6 +226,12 @@ body {
     display: none;
   }
   
+
+  .show{
+
+    margin-left: 80px;
+  }
+  
   .logo-header{
   
       margin-right: 15px;

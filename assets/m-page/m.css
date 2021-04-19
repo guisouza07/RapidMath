@@ -183,6 +183,11 @@ body {
   div.card-donate {
     display: none;
   }
+
+  .show{
+
+    margin-left: 80px;
+  }
   
   .logo-header{
   
