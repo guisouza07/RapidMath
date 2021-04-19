@@ -3,77 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <title>Rapid Math - Conversion & Tools</title>
-    <link rel="icon" href="./assets/images/infinity-logo.png">
-    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.2">
+    <title>Rapid Math - Feet to Other units</title>
+    <link rel="icon" href="../images/infinity-logo.png">
+    <link href="./feet.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" media="all and (orientation:portrait)" href="portrait.css">
+    <script src="../feet-page/feet.js"></script>
 </head>
 <body>
 
     <div class="header">
         <div class="logo-header">
-            <a href="./index.html">
-                <img width="50px" src="../RapidMath-project/assets/images/infinity-logo.png">
+            <a href="../../index.html">
+                <img width="50px" src="../images/infinity-logo.png">
             </a>
             
         </div>
-        <a href="./index.html" class="logo" style="color:#ffffff; text-decoration:none" >Rapid Math</a>
+        <a href="../../index.html" class="logo" style="color:#ffffff; text-decoration:none" >Rapid Math</a>
         
       </div>
       
-
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header" style="background-color:#2b2b2b;">Bases Converter</div>
-
-            <div class="card-body">
-                <a href="../RapidMath-project/assets/decimal-page/decimal.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Decimal to Other Bases</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/binary-page/binary.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Binary to Other Bases</h5></a>
-                    <hr class="solid">  
-                <a href="../RapidMath-project/assets/hex-page/hex.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Hexadecimal to Other Bases</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/octal-page/octal.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Octal to Other Bases <span class="badge bg-warning">New</span></p></h5></a>
-              
-
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header" style="background-color:#2b2b2b;">Lenght Converter</div>
-
-           <div class="card-body">
-                <a href="../RapidMath-project/assets/cm-page/cm.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Centimeters to other units</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/feet-page/feet.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Feet to other units  <span class="badge bg-warning">New</span></p></h5></a>
-                    <hr class="solid">  
-                <a href="../RapidMath-project/assets/km-page/km.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Kilometers to other units</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/m-page/m.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Meters to other units</h5></a>
-            </div>
-          </div>
+      <div class="jumbotron jumbotron-fluid mb-5 ">
+        <div class="container ">
+          <h1 class="display-4">Feet Converter</h1>
+          <p class="lead">Insert an number in feet and it will appear in the other units.</p>
         </div>
       </div>
+      
 
+  
+
+      <div class="input-group mb-3 input-group-lg mx-auto w-50 pb-4 pt-3">
+        <input type="number"  onfocus="this.value=''"  id="demoInput" placeholder="Insert here a number in feet"  class="form-control" aria-label="Decimal number" >
+        <button style="background-color:#2b2b2b; color:#ffffff" class="btn btn-outline-dark" onclick="convertFunction()" type="button" id="btn-convert">Convert</button>
+      </div>
+      <p class="show" id="demo"></p>
+      <hr class="line">
 
 
       <div class="row">
@@ -98,7 +66,7 @@
 
 
         <div class="col-sm-6">
-            <div class="card" id="donate-card">
+            <div class="card">
                 <div class="card-header"   style="background-color:#2b2b2b;">Donate</div>
                 <div class="card-body">
                 <h5 class="card-title">Collaborate to help on the page.</h5>
@@ -108,15 +76,9 @@
           </div>
         </div>
 
-
-
-
-
-
-
-
       
-  
+
+
 
       <div class="footer-dark">
         <footer>
@@ -125,15 +87,15 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Operations</h3>
                         <ul>
-                            <li><a href="#top">Bases Converter</a></li>
-                            <li><a href="#top">Lenght Converter</a></li>
-                            <li><a href="#weightCard">Weight Converter</a></li>
+                            <li><a href="../../index.html">Bases Converter</a></li>
+                            <li><a href="#linkLenght">Lenght Converter</a></li>
+                            <li><a href="../../index.html">Weight Converter</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Donate</h3>
                         <ul>
-                            <li><a href="https://www.paypal.com/donate?token=0XVnfoutb63tjvxy4z674QwkK71PYUhQYnF0Eww3epKESNVy49XABAS2i0S9ygndsrCl5o34nV_ACsKT">Press Here</a></li>
+                          <li><a href="https://www.paypal.com/donate?token=0XVnfoutb63tjvxy4z674QwkK71PYUhQYnF0Eww3epKESNVy49XABAS2i0S9ygndsrCl5o34nV_ACsKT">Press Here</a></li>
                             
                         </ul>
                     </div>
