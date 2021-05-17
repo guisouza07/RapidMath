@@ -4,159 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
     <title>Rapid Math - Conversion & Tools</title>
-    <link rel="icon" href="./assets/images/infinity-logo.png">
-    <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" media="all and (orientation:portrait)" href="portrait.css">
+    <link rel="icon" href="assets\images\infinity-logo.png">
+    <link href="./styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
 </head>
 <body>
 
-    <div class="header">
+      <div id="navbar">
         <div class="logo-header">
             <a href="./index.html">
-                <img width="50px" src="../RapidMath-project/assets/images/infinity-logo.png">
+              <img width="38px" src="assets\images\infinity-logo.png">
             </a>
+              
+        </div>
+          <a href="./index.html" class="logo" style="color:#ffffff; text-decoration:none; " >Rapid Math</a>
             
-        </div>
-        <a href="./index.html" class="logo" style="color:#ffffff; text-decoration:none" >Rapid Math</a>
-        
-      </div>
-      
-
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header" style="background-color:#2b2b2b;">Bases Converter</div>
-
-            <div class="card-body">
-                <a href="../RapidMath-project/assets/decimal-page/decimal.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Decimal to Other Bases</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/binary-page/binary.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Binary to Other Bases</h5></a>
-                    <hr class="solid">  
-                <a href="../RapidMath-project/assets/hex-page/hex.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Hexadecimal to Other Bases</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/octal-page/octal.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Octal to Other Bases <span class="badge bg-warning">New</span></p></h5></a>
-              
-
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header" style="background-color:#2b2b2b;">Lenght Converter</div>
-
-           <div class="card-body">
-                <a href="../RapidMath-project/assets/cm-page/cm.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Centimeters to other units</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/feet-page/feet.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Feet to other units  <span class="badge bg-warning">New</span></p></h5></a>
-                    <hr class="solid">  
-                <a href="../RapidMath-project/assets/test/test.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Kilometers to other units</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/m-page/m.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Meters to other units</h5></a>
-            </div>
-          </div>
-        </div>
       </div>
 
-
-
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header" id="weightCard"  style="background-color:#2b2b2b;">Weight Converter</div>
-
-            <div class="card-body">
-                <a href="../RapidMath-project/assets/gram-page/gram.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Gram to other units</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/kilogram-page/kilogram.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Kilogram to other units</h5></a>
-                    <hr class="solid">
-                <a href="../RapidMath-project/assets/mg-page/mg.html"style="color:#292929; text-decoration:none">
-                    <h5 class="card-title">Milligram to other units</h5></a>
-              
-
-            </div>
+      <div class="float-container">
+        <div class="float-child">
+          <div class="container" >
+            <h1 class="title" >Instant unit <br><span class="OrangeTitle">converter</span></h1>
+            <p class="text">Convert units anytime quickly and efficiently. <br>On each page there are also the formulas<br>and step by step of each conversion.</p>
           </div>
         </div>
 
 
-        <div class="col-sm-6">
-            <div class="card" id="donate-card">
-                <div class="card-header"   style="background-color:#2b2b2b;">Donate</div>
-                <div class="card-body">
-                <h5 class="card-title">Collaborate to help on the page.</h5>
-                <a href="https://www.paypal.com/donate?token=mkZov6KablKBbBPFm9ugP6GOqINaj0rG7mZltXJIB2RHJTrLNrNpHv7Xi1eUWnB918QI495irzvyU59l" style="background-color:#2b2b2b" class="btn btn-dark mt-2">Donate</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-      
-  
-
-      <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Operations</h3>
-                        <ul>
-                            <li><a href="#top">Bases Converter</a></li>
-                            <li><a href="#top">Lenght Converter</a></li>
-                            <li><a href="#weightCard">Weight Converter</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Donate</h3>
-                        <ul>
-                            <li><a href="https://www.paypal.com/donate?token=0XVnfoutb63tjvxy4z674QwkK71PYUhQYnF0Eww3epKESNVy49XABAS2i0S9ygndsrCl5o34nV_ACsKT">Press Here</a></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-md-3 item text">
-                        <h3>Rapid Math</h3>
-                        <p>
-                            Created to instantly solve math operations. </p>
-                    </div>
-                    <div class="col item social"><a href="https://github.com/guisouza07/"><i class="icon ion-social-github"></i></a><a href="http://instagram.com/gui.csouza/"><i class="icon ion-social-instagram"></i></a><a href="https://www.linkedin.com/in/guilhermecsouza/"><i class="icon ion-social-linkedin"></i></a></div>
+        <div class="wrapper" >
+        <ui class="mainMenu">
+            <li class="item" id="account">
+                <a href="#account" class="btn" style="color:#f0f0f0; text-decoration:none; " >Bases Converter</a>
+                <div class="subMenu" >
+                  <div class="subMenu1" >
+                      <a style="text-decoration: none; color:#fff; " href="assets\decimal-page\decimal.html">Decimal</a>
+                      <a style="text-decoration: none;  color:#fff; " href="assets\binary-page\binary.html">Binary</a>
+                      <a style="text-decoration: none;  color:#fff; " class="" href="assets\octal-page\octal.html">Octal</a>
+                      <a style="text-decoration: none;  color:#fff; " class="" href="assets\hex-page\hex.html">Hexadecimal</a>
+                  </div>
                 </div>
-                <p class="copyright">Rapid Math © 2021</p>
+            </li>
+            <li class="item" id="about">
+                <a href="#about" class="btn" style="color:#f0f0f0; text-decoration:none; " >Lenght Converter</a>
+                <div class="subMenu" >
+                  <div class="subMenu1" >
+                      <a style="text-decoration: none; color:#fff; " href="assets\cm-page\cm.html">Centimeters</a>
+                      <a style="text-decoration: none;  color:#fff; " href="assets\feet-page\feet.html">Feet</a>
+                      <a style="text-decoration: none;  color:#fff; " class="" href="assets\km-page\km.html">Kilometers</a>
+                      <a style="text-decoration: none;  color:#fff; " class="" href="assets\m-page\m.html">Meters</a>
+                  </div>
+                </div>
+            </li>
+            <li class="item" id="support">
+                <a href="#support" class="btn" style="color:#f0f0f0; text-decoration:none; " >Weight Converter</a>
+                <div class="subMenu">
+                    <a style="text-decoration: none; color:#fff; " href="assets\gram-page\gram.html">Gram</a>
+                    <a style="text-decoration: none;  color:#fff; " href="assets\kilogram-page\kilogram.html">Kilogram</a>
+                    <a style="text-decoration: none;  color:#fff; " class="" href="assets\mg-page\mg.html">Milligram</a>
+                </div>
+            </li>
+            <li class="item">
+                <a  href="#" class="btn" style="color:#f0f0f0; text-decoration:none;" >Close</a>
+            </li>
+        </ui>
+      </div>
+
+        <div class="footer">
+          <footer class="text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-3 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-3 pt-3">
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/guisouza07" role="button"
+                  ><i class="fa fa-github pl-3"></i>
+                </a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/gui.csouza/?hl=pt-br" role="button"
+                  ><i class="fa fa-instagram pl-3"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fa fa-paypal pl-3"></i
+                ></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto: gui_csouza@outlook.com" role="button"
+                  ><i class="fa fa-envelope pl-3"></i
+                ></a>
+
+   
+              </section>
             </div>
-        </footer>
-    </div>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Copyright -->
+            <div class="cop text-center p-3" style="background-color: #161616;">
+              © 2021 Copyright:
+              <a class=" text-white" href="#html">RapidMath</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        </div>
 
 
 
-
-
-      
-		
-    
 </body>
+
+<script> 
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
+</script>
 </html>
