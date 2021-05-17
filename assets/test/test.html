@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapid Math - Conversion & Tools</title>
+    <link rel="icon" href="../images/infinity-logo.png">
+    <link href="./test.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="../test/test.js"></script>
+</head>
+<body>
+
+      <div id="navbar">
+        <div class="logo-header">
+            <a href="./index.html">
+              <img width="38px" src="../images/infinity-logo.png">
+            </a>
+              
+        </div>
+          <a href="./index.html" class="logo" style="color:#ffffff; text-decoration:none; " >Rapid Math</a>
+            
+      </div>
+ 
+      <div class="float-container">
+        <div class="float-child">
+          <div class="container" >
+            <h1 class="title" >Kilometers<br><span class="OrangeTitle">Converter</span></h1>
+            <p class="text">Insert an number in meters and<br> it will appear in the other units.</p>
+      </div>
+      
+
+        <div class="input-group input-group-lg w-25 ">
+          <input type="number"  onfocus="this.value=''"  id="demoInput" placeholder="Insert here a number in Kilometers"  class="form-control" aria-label="Decimal number" >
+          <button style="background-color:#ffa500; color:#1a1a1a;" class="btn btn-outline-dark" onclick="convertFunction()" type="button" id="btn-convert">Convert</button>
+        </div>
+        <p class="show" id="demo"></p>
+        </div>
+         
+        
+
+
+
+        <div class="footer">
+          <footer class="text-center text-white">
+            <!-- Grid container -->
+            <div class="container pt-1">
+              <!-- Section: Social media -->
+              <section class="pb-3 pt-2">
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/guisouza07" role="button"
+                  ><i class="fa fa-github pl-2 pr-2"></i>
+                </a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/gui.csouza/?hl=pt-br" role="button"
+                  ><i class="fa fa-instagram pl-2 pr-2"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fa fa-paypal pl-2 pr-2 "></i
+                ></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto: gui_csouza@outlook.com" role="button"
+                  ><i class="fa fa-envelope pl-2 pr-2"></i
+                ></a>
+                
+
+
+              </section>
+            </div>
+
+            <!-- Copyright -->
+            
+            <div class="cop text-center pb-3" style="background-color: #141414;">
+              © 2021 Copyright:
+              <a class=" text-white" href="#html">RapidMath</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        </div>
+
+
+
+</body>
+
+<script> 
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
+</script>
+</html>
