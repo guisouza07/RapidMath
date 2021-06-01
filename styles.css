@@ -236,3 +236,32 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+      
+      width: 100%;
+    }
+    }
+    
+    /* If the screen size is 600px wide or less, hide the element */
+    @media only screen and (max-width: 600px) {
+    
+    .header{
+      width: 104%;
+    }
+    
+    .wrapper{
+
+      margin-left: 10%;
+      margin-top: 20%;
+
+
+    }
+  
+
+    
+    
+    }
