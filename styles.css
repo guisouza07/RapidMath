@@ -250,24 +250,24 @@ body {
     @media only screen and (max-width: 600px) {
     
     .navbar{
-      width: 110%;
+      width: 130%;
     }
 
     .logo{
-      margin-right: 10px;
+      margin-left: 10px;
 
     }
 
     .logo-header{
 
-      margin-right: 10px;
+      margin-left: 10px;
 
     }
     
-    .wrapper{
+    .mainMenu{
 
       margin-right: 30px;
-      margin-top: 40px;
+      margin-top: 25px;
 
 
     }
