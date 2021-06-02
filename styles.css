@@ -254,7 +254,7 @@ body {
     }
 
     .logo{
-      margin-left: 1px;
+      margin-left: -2px;
 
     }
 
@@ -266,8 +266,8 @@ body {
     
     .mainMenu{
 
-      margin-left: -100px;
-      margin-top: 110%;
+      margin-left: -130px;
+      margin-top: 150%;
 
 
     }
